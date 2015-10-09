@@ -1,0 +1,123 @@
+// New to Stylus? Check out http://learnboost.github.io/stylus
+// Use modern CSS thanks to Autoprefixer: https://github.com/ai/autoprefixer
+
+colorA = #014572
+colorB = #006672
+colorC = #DAD594
+colorD = #F2BA02
+colorE = #DC7900
+colorText = colorA
+
+fontTitle = 'Playfair Display', serif
+fontText = 'Quicksand', sans-serif
+
+
+//==
+// Body
+
+body
+  background colorC
+  color colorText
+  font-family fontText
+  font-size 22px
+  text-align left
+
+//==
+// Typography
+
+p
+  margin 0
+  padding 0 120px 0 0
+  text-align left
+  width 100%
+
+p.quote
+  padding 0 40px
+  font-size 1.3rem
+  text-align center
+
+p.quote-author
+  padding 0 40px
+  font-size 1rem
+  text-align center
+  margin-top 20px
+  font-style italic
+
+h1
+h2
+h3
+h4
+h5
+h6
+  color colorText
+  font-family fontTitle
+  font-weight 700
+  text-align left
+  width 100%
+
+h4
+h5
+h6
+  font-family fontText
+  font-weight normal
+
+h1
+  font-size 6rem
+  line-height 1em
+
+//==
+// Slides
+
+.bespoke-slide
+  background transparent
+  width 100%
+  height 100%
+  margin 0
+  top 0
+  left 0
+
+.bespoke-slide article
+  width 640px
+  height 480px
+  position absolute
+  top 50%
+  left 50%
+  margin-left -320px
+  margin-top -240px
+
+.centered
+.centered *
+  text-align center
+
+.special-1
+  background url(../images/footer_lodyas.png)
+
+.special-1 p
+  color colorD
+  font-size 1.5rem
+  line-height 1.5em
+
+.special-1 span
+  color colorC
+  font-size 12rem
+  font-weight 400
+  position absolute
+  top 130px
+  right 40px
+
+
+//==
+// Single slides
+
+#slide-front
+  background url(../images/bg2.jpg) no-repeat
+  background-size cover
+
+#slide-front h1
+#slide-front h6
+  color colorD
+
+#slide-front h1
+  position absolute
+  top 0
+  left 0
