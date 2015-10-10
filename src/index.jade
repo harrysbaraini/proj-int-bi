@@ -57,7 +57,7 @@ html
         img(src='images/slide_fluxograma_si.png')
 
       section
-        h3 Processo do SI
+        h3 Processos do SI
         p Entrada
         p Processamento
         p Saída
@@ -70,7 +70,7 @@ html
         p Sistemas de Nível Estratégico
         p Sistemas de Nível Gerencial
 
-      section
+      section.centered
         h3 Pirâmide de Níveis Estratégicos
         img(src='images/slide_niveis.png')
 
@@ -104,15 +104,17 @@ html
         p Bancos de Dados
 
       section
+        h3 Bancos de dados
         p Sistema computadorizado de armazenamento de registros
+        br
         p Presentes em diversos tipos de equipamentos
 
       section
         h3 Tipos
         p Bancos de dados tradicionais
         p Bancos de dados multimídia
-        p <em>Geographic Information Systems</em>
-        p <strong>Data Warehouse</strong>
+        p Geographic Information Systems
+        p Data Warehouse
 
       section.centered
         h3 Banco de dados
@@ -120,7 +122,81 @@ html
         p.quote-author Navathe <em>et al</em> (2011)
 
       section
+        h3 Minimundo / Universe of Discourse (UoD)
+        p O banco de dados é uma representação de algum aspecto real
+        br
+        p Mudanças realizadas no minimundo refletem no banco de dados
+
+      section
         h3 Database Management System (SGBD)
-        p Isola usuários do banco de daos dos detalhes do nível de hardware
+        p Isola usuários do banco de dados dos detalhes do nível de hardware
+        br
+        p Oracle, MySQL, Microsoft SQL Server, PostgreSQL, DB2, MongoDB, Sybase, Cassandra
+
+      section
+        h3 Metadados
+        p Especificação de tipos
+        p Especificação de estruturas
+        p Restrições de dados
+
+      section.centered
+        h3 Metadados
+        p.quote Metadados são todas as informações do ambiente do data warehouse que não são seus próprios dados.
+        p.quote-author Kimball <em>et al</em> (1998a)
+
+      section
+        h3 Metadados
+        p Independência de dados do programa
+        p Independência da operação do programa
+        p On-line Transaction Processing (OLTP)
+
+      section.centered
+        h3 Arquitetura Simplificada
+        img(src='images/arquitetura_sgbd.gif')
+
+      section.centered
+        h2 Mas... Mas... Mas...
+
+      section.special-1
+        h1 Data Warehouse
+
+      section
+        h3 Data Warehouse
+        p Poder de processamento
+        p Técnicas analíticas
+        p Sistemas de apoio à decisão
+        p Estruturas lógicas dimensionais
+
+      section
+        h3 Data Warehouse
+        p Coleção de dados orientada a assunto
+        p Integrada
+        p Não volátil
+
+      section.centered
+        img(src='images/daddy_bill.jpg')
+
+      section
+        h3 DW segundo Bill Inmon (1993)
+        p Modelo único e integrado
+        p Análise BRA (Business Requirements Analysis)
+        p Modelagem de dados
+        p Análise das fontes de dados
+        p Projeto e Design
+
+      section.centered
+        img(src='images/kimball.jpg')
+
+      section
+        h3 DW segundo Ralph Kimball (1993)
+        p Projetos de Data Mart separados
+        p Integração na medida da evolução
+        p Projetos menores e independentes
+
+      section.special-1
+        p On-line Analytical Processing
+
+      section
+        h3 OLAP vs OLTP
 
     script(src='build/build.js')

@@ -1,15 +1,15 @@
 # Business Intelligence
-> A [Bespoke.js](http://markdalgleish.com/projects/bespoke.js) presentation, built with [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)
+> Apresentação do projeto integrador do curso de Bacharelado em Engenharia de Software da UNIVILLE.
 
-## View slides locally
+## Visualizar slides localmente
 
-First, ensure you have the following installed:
+Primeiramente, certifique-se de ter instalado:
 
 1. [Node.js](http://nodejs.org)
 2. [Bower](http://bower.io): `$ npm install -g bower`
 3. [Gulp](http://gulpjs.com): `$ npm install -g gulp`
 
-Then, install dependencies and run the preview server:
+Então, instale as dependências e execute o servidor:
 
 ```bash
 $ npm install && bower install
