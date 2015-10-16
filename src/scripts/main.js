@@ -17,5 +17,6 @@ bespoke.from('article', [
   bullets('li, .bullet'),
   backdrop(),
   scale(),
-  progress()
+  progress(),
+  hash()
 ]);
